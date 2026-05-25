@@ -169,9 +169,14 @@ body {
   margin-bottom: 15px;
 }
 
-.skills__text {
+.skills__list {
+  padding-left: 20px;
   color: var(--secondary-text-color);
   text-align: justify;
+
+  span {
+    font-weight: 700;
+  }
 }
 
 
@@ -264,6 +269,10 @@ body {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
+}
+
+.additional-info__languages-list {
+  padding-left: 20px;
 }
 
 .additional-info__languages-item {
